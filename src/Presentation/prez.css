@@ -1,0 +1,32 @@
+.eventContent{
+	border:2px solid transparent;
+}
+.prezgrid{
+	margin-top: 150px;
+	border:2px solid red;
+}
+.wrappingPrez{
+	display:flex;
+	justify-content: center;
+	border:2px solid blue;
+	width:100%;
+	margin-top:50px;
+/*	text-align: center;
+*/}
+.wrappingMis{
+	border:2px solid green;
+	width:100%;
+	margin-top:50px;
+	margin-bottom: 50px;
+}
+.Prez{
+	margin:8px;
+	border:2px solid pink;
+	width:50%;
+	text-align: left;
+}
+.pictPrez{
+	border:2px solid pink;
+	width:50%;
+	text-align: center;
+}

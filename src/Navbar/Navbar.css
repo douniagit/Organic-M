@@ -1,13 +1,12 @@
-*{
+/**{
 	margin:0;
-}
+}*/
 
 .header{
 	position:absolute;
 	width:100%;
 	height:9vh;
-	background-color:white;
-	opacity:0.5;
+	background-color:rgba(255,255,255,0.5);
 }
 
 .wrapHead{
@@ -52,9 +51,9 @@
 .navpart1 ul ul{
 	display:none;
 	position:absolute;
-/*	padding:10px 10px 10px 0;
-*/	width:150px;
-	border:2px solid green;
+	width:150px;
+	border:2px solid white;
+	border-radius:10px;
 
 }
 
@@ -74,6 +73,6 @@ a{
 	color:black;
 }
 a:hover{
-	color:#CB960F;
+	color:red;
 }
 

@@ -13,10 +13,10 @@ class Navbar extends React.Component{
 						<ul>
 							<li><Link to="/home">Home</Link></li>
 							<li><Link to="/presentation">Présentation</Link></li>
-							<li>Disciplines
+							<li><a>Disciplines</a>
 								<ul>
-									<li>{/*<Link to="/Disciplines">*/}Nos disciplines{/*</Link>*/}</li>
-									<li>{/*<Link to="/activites">*/}Activités pédagogiques{/*</Link>*/}</li>
+									<li><a>Nos disciplines</a></li>
+									<li><a>Activités pédagogiques</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -25,7 +25,7 @@ class Navbar extends React.Component{
 					<div className="navpart2">
 						<ul>
 							<li><Link to="/tarifs">Tarifs</Link></li>
-							<li>Notre équipe</li>
+							<li><a>Notre équipe</a></li>
 							<li><Link to="/partenaire">Nos partenaires</Link></li>
 						</ul>
 					</div>
